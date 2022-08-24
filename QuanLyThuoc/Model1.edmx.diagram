@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4bfe2f0249564d249cdcb2e765e90cf5" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyThuocModel.ChiTietHoaDonBan" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.ChiTietHoaDonNhap" Width="1.5" PointX="8.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.HoaDonBan" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.HoaDonNhap" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.KhachHang" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.NhanVien" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.NhaSanXuat" Width="1.5" PointX="3.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_ChiTietHoaDonBan_HoaDonBan1" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_ChiTietHoaDonNhap_HoaDonNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_HoaDonBan_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_HoaDonBan_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_HoaDonNhap_NhanVien1" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_HoaDonNhap_NhaSanXuat" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.Lo" Width="1.5" PointX="5.25" PointY="16.125" />
+        <EntityTypeShape EntityType="QuanLyThuocModel.Thuoc" Width="1.5" PointX="3" PointY="0.75" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_ChiTietHoaDonBan_Thuoc" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_ChiTietHoaDonNhap_Thuoc" />
+        <AssociationConnector Association="QuanLyThuocModel.FK_Lo_Thuoc" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
